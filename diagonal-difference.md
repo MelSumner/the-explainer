@@ -15,10 +15,11 @@ function diagonalDifference(arr) {
     return Math.abs(LeftToRight - RightToLeft);
 }
 ```
-
-## Practical Application
+## Ok but why?!
 
 The ability to solve this problem demonstrates the ability to work with multi-dimensional arrays. 
+
+## Practical Application
 
 Ways this algorithm could be used: 
 - pixel editing- [image kernels](http://setosa.io/ev/image-kernels/) images are often edited based on the pixels that surround them (their "neighborhood")
