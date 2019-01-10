@@ -6,13 +6,13 @@ Given a square matrix, calculate the absolute difference between the sums of its
 
 ```js
 function diagonalDifference(arr) {
-    var LtR = 0;
-    var RtL = 0;
+    var LeftToRight = 0;
+    var RightToLeft = 0;
     for (let i = 0; i < arr.length; i++) {
-        LtR += arr[i][i];
-        RtL += arr[i][Math.abs(i - (arr.length - 1))];
+        LeftToRight += arr[i][i];
+        RightToLeft += arr[i][Math.abs(i - (arr.length - 1))];
     }
-    return Math.abs(LtR - RtL);
+    return Math.abs(LeftToRight - RightToLeft);
 }
 ```
 
