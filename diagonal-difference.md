@@ -2,6 +2,20 @@
 
 Hacker Rank problem: https://www.hackerrank.com/challenges/diagonal-difference/problem
 
+Given a square matrix, calculate the absolute difference between the sums of its diagonals. 
+
+```js
+function diagonalDifference(arr) {
+    var LtR = 0;
+    var RtL = 0;
+    for (let i = 0; i < arr.length; i++) {
+        LtR += arr[i][i];
+        RtL += arr[i][Math.abs(i - (arr.length - 1))];
+    }
+    return Math.abs(LtR - RtL);
+}
+```
+
 ## Practical Application
 
 The ability to solve this problem demonstrates the ability to work with multi-dimensional arrays. 
