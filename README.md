@@ -1,5 +1,5 @@
 # the-explainer
-Things I am learning, to explain. 
+Providing practical insight to CS exercises. 
 
 - [Diagonal Difference](diagonal-difference.md)
 - [Min Max Sum](min-max-sum.md)
