@@ -1,6 +1,9 @@
 # Diagonal Difference
 
+## Task
 Given a square matrix, calculate the absolute difference between the sums of its diagonals. 
+
+## Code
 
 ```js
 function diagonalDifference(arr) {
@@ -17,9 +20,7 @@ function diagonalDifference(arr) {
 
 The ability to solve this problem demonstrates the ability to work with multi-dimensional arrays. 
 
-## Practical Application
-
-Ways this algorithm could be used: 
+## Practical Application(s)
 - pixel editing- [image kernels](http://setosa.io/ev/image-kernels/) images are often edited based on the pixels that surround them (their "neighborhood")
 - computations related to coordinates (tracking objects in space) See: [Linear Algebra](https://en.wikipedia.org/wiki/Linear_algebra)
 - 3-d graphics programming (https://en.wikipedia.org/wiki/Fundamental_matrix_(computer_vision)) - it allows a computer to add depth characteristic/perspective to a 2-d (flat) image. 
