@@ -34,3 +34,6 @@ This demonstrates the ability to bucket sort things in an array.
 ## Practical Application
 - calculating loss/wins/draws for a sports app
 - really anything else that needs sorting like this (there are lots, this one feels like it has obvious practical applications). 
+
+## Reference
+Hacker Rank problem: https://www.hackerrank.com/challenges/plus-minus/problem
