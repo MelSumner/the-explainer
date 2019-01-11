@@ -1,6 +1,10 @@
 # Plus Minus
 
+## Task
+
 Given an array of integers, calculate the fractions of its elements that are positive, negative, and are zeros. Print the decimal value of each fraction on a new line.
+
+## Code
 
 ```js
 function plusMinus(arr) {
@@ -21,13 +25,13 @@ function plusMinus(arr) {
 			zerosNumsCount++;
 		}
 	}
-	console.log('fraction of total that are positive numbers:  ' + positiveNumsCount / totalNumsCount);
-	console.log('fraction of total that are negative numbers:  ' 
-	+ negativeNumsCount / totalNumsCount);
-	console.log('fraction of total that are zeroes:  ' + zerosNumsCount / totalNumsCount);
+	console.log(positiveNumsCount / totalNumsCount);
+	console.log(negativeNumsCount / totalNumsCount);
+	console.log(zerosNumsCount / totalNumsCount);
 
 }
 ```
+
 ## Ok but why?!
 This demonstrates the ability to bucket sort things in an array. 
 
